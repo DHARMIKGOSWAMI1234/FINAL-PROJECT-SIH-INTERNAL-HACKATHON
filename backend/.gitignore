@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+
+# Sensitive files & certificates
+*.pem
+*.key
+service-account*.json
+firebase-adminsdk*.json
+credentials*.json
+
+# Logs
+logs/
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
